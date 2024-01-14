@@ -17,13 +17,19 @@ function add(uint _x, uint _y) public returns (uint) {
   emit IntegersAdded(_x, _y, result);
   return result;
 }
-Your app front-end could then listen for the event. A JavaScript implementation would look something like:
+
+Your app front-end could then listen for the event. 
+  A JavaScript implementation would look something like:
 
 YourContract.IntegersAdded(function(error, result) {
   // do something with result
 })
+
+
 Put it to the test
-We want an event to let our front-end know every time a new zombie was created, so the app can display it.
+We want an event to let our front-end know 
+    every time a new zombie was created, 
+        so the app can display it.
 
 Declare an event called NewZombie. It should pass zombieId (a uint), name (a string), and dna (a uint).
 
