@@ -21,7 +21,7 @@ Chapter 12: Handling Multiple Return Values
                         (,,c) = multipleReturns();
                     }
 
-    Put it to the test
+Put it to the test
     Time to interact with the CryptoKitties contract!
 
     Let's make a function that gets the kitty genes from the contract:
